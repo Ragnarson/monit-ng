@@ -19,7 +19,7 @@ when 'repo'
 
   package 'monit'
 when 'source'
-  include_recipe 'build-essential'
+  build_essential
 
   source = node['monit']['source']
 
