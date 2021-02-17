@@ -4,9 +4,9 @@ maintainer_email 'nath.e.will@gmail.com'
 license          'Apache 2.0'
 description      'Installs and configures monit'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '2.4.1'
+version          '2.4.2'
 
-%w( yum-epel ubuntu apt dpkg_autostart ).each do |dep|
+%w( ubuntu apt dpkg_autostart ).each do |dep|
   depends dep
 end
 
