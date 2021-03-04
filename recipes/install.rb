@@ -13,8 +13,6 @@ when 'repo'
     dpkg_autostart 'monit' do
       allow false
     end
-
-    include_recipe 'ubuntu'
   end
 
   package 'monit'
